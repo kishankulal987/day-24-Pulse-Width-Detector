@@ -10,7 +10,7 @@ Module: pulse_width_detector
 
 
 
-What I Did: I designed a circuit to measure the duration of a high pulse and generate an output signal based on a threshold.
+### What I Did: I designed a circuit to measure the duration of a high pulse and generate an output signal based on a threshold.
 
 
 
@@ -24,7 +24,7 @@ THRESHOLD: Minimum pulse width in clock cycles to assert pulse_out (default: 1).
 
 
 
-Inputs:
+## Inputs:
 
 
 
@@ -42,7 +42,7 @@ pulse_in: Input pulse signal to measure.
 
 
 
-Outputs:
+## Outputs:
 
 
 
@@ -56,7 +56,7 @@ pulse_width[15:0]: 16-bit register storing the measured pulse width in clock cyc
 
 
 
-How It Works:
+### How It Works:
 
 
 
